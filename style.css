@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f5f5f5;
+  padding: 2em;
+}
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+.locked {
+  background: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+.available {
+  background: #9bd4c2;
+}
+.approved {
+  background: #88cc88;
+  text-decoration: line-through;
+}
